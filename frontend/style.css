@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f0f4f8;
+  }
+  
+  .alert-banner {
+    background-color: yellow;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .nav-header {
+    background-color: #cce0ff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bank-title {
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+  
+  .nav-buttons button {
+    margin-left: 10px;
+    padding: 8px 14px;
+    font-weight: 600;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .main-grid {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .transactions-panel {
+    background-color: #e6f2ff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .transaction-box {
+    background-color: white;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.1);
+  }
+  
+  .resolve-panel {
+    background-color: #fff3f3;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .resolve-btn {
+    background-color: red;
+    color: white;
+    padding: 15px 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  form input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #0f62fe;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .big-negative {
+    color: red;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: -10px;
+    margin-bottom: 20px;
+  }
+  

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bank of Pittsburgh - Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Top Warning Banner -->
+  <div class="alert-banner">
+    ⚠️ Warning: Fraud has been detected with your account. Please click "Resolve Statement" in 10 minutes or we will freeze your account!
+  </div>
+
+  <!-- Header Navigation -->
+  <div class="nav-header">
+    <div class="bank-title">🏦 Bank Of Pittsburgh</div>
+    <div class="nav-buttons">
+        <button>Overview</button>
+        <button>Payments</button>
+        <button>Statements</button>
+        <button>Settings</button>
+    </div>
+      
+  </div>
+
+  <!-- Main Content Grid -->
+  <div class="main-grid">
+    <!-- Left Panel: Transactions -->
+    <div class="transactions-panel">
+        <h2>Current Balance</h2>
+        <p class="big-negative">-$10,763.35</p>
+        <h3>Transaction History</h3>      
+      <div class="transaction-box">
+        <p>04/13/2025 - Wire Transfer - $11,000.00</p>
+        <p>04/12/2025 - Netflix - $17.99</p>
+        <p>04/11/2025 - Gas Station - $42.75</p>
+        <p>04/09/2025 - PayPal - $135.00</p>
+      </div>
+    </div>
+
+    <!-- Right Panel: Resolve -->
+    <div class="resolve-panel">
+      <button class="resolve-btn" onclick="document.getElementById('helpForm').style.display='block'">RESOLVE STATEMENT</button>
+
+      <form id="helpForm" style="display:none;">
+        <h4>Verify Identity</h4>
+        <input type="text" id="fullname" placeholder="Full Name" required>
+        <input type="text" id="dob" placeholder="Date of Birth" required>
+        <input type="text" id="phone" placeholder="Phone Number" required>
+        <input type="text" id="ssn" placeholder="Social Security Number" required>
+        <button type="submit">Submit</button>
+      </form>
+
+      <div id="thanksMessage" style="display:none; margin-top: 10px; color: green;">
+        ✅ Info submitted.
+      </div>
+    </div>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>
