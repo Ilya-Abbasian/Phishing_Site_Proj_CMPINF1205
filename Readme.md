@@ -48,6 +48,15 @@ By simulating phishing tactics, this project demonstrates real-world threats to 
 - The phishing site was modeled after a simplified banking interface.
 - No collection of actual personal data was involved; all data remained within a controlled test setup.
 
+## Sources
+
+1. Karanjit, U., Roy, S. S., & Nilizadeh, S. (2024). *A Large-Scale Analysis of Phishing Websites Hosted on Free Web Hosting Domains.* arXiv, [cs.CR]. https://doi.org/10.48550/arXiv.2212.02563
+
+2. Roy, S. S., Karanjit, U., & Nilizadeh, S. (2021). *Evaluating the Effectiveness of Phishing Reports on Twitter.* arXiv, [cs.CR]. https://doi.org/10.48550/arXiv.2111.07201
+
+3. Irwin, L. (2022, October 20). *The 5 Biggest Phishing Scams of All Time.* IT Governance Blog. Retrieved from https://www.itgovernance.eu/blog/en/the-5-biggest-phishing-scams-of-all-time
+
+
 ## How to Run Locally
 
 1. Clone the repository:
