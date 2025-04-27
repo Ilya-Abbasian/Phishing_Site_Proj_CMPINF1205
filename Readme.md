@@ -1,4 +1,4 @@
-# Phishing Awareness Demo Site 🎣
+# Phishing Awareness Demo Site
 
 This project simulates a realistic phishing website designed for educational and research purposes.  
 It demonstrates how phishing attacks can trick users into entering sensitive information, and how subtle design choices influence trust.
@@ -10,14 +10,14 @@ It demonstrates how phishing attacks can trick users into entering sensitive inf
 - Security warning and time pressure banners to create urgency
 - Navbar with fake account tabs to simulate a real dashboard
 - Fake transaction history table to increase realism
-- Backend server to capture and store login credentials (educational use only!)
+- Backend server to capture and store login credentials (educational use only)
 
 ## Research Applications
 
-- **Educational Training**: Teach students and employees how phishing sites operate
-- **User Behavior Analysis**: Study how design elements (like urgency, warnings) affect decision-making
-- **Security Awareness Campaigns**: Use this as a live demo to show the dangers of untrusted links
-- **Cybersecurity Research**: Serve as a mock platform for developing anti-phishing tools and detection algorithms
+- Educational training: Teach students and employees how phishing sites operate
+- User behavior analysis: Study how design elements (like urgency, warnings) affect decision-making
+- Security awareness campaigns: Use this as a live demo to show the dangers of untrusted links
+- Cybersecurity research: Serve as a mock platform for developing anti-phishing tools and detection algorithms
 
 ## Key Findings from Development
 
@@ -25,6 +25,28 @@ It demonstrates how phishing attacks can trick users into entering sensitive inf
 - Professional-looking UI (even basic) dramatically increases trust
 - Time pressure tactics (countdown timer) significantly reduce careful inspection by users
 - Including fake transactions and multiple tabs builds an illusion of legitimacy
+
+## Research Questions
+
+- How do realistic phishing websites manipulate users into surrendering private information?
+- What design features (such as urgency, professional appearance, and fake transaction histories) increase user trust?
+
+## Significance of Research
+
+Understanding how phishing websites operate and deceive users is crucial for protecting digital privacy.  
+This research highlights the ease with which behavioral and financial information can be stolen through realistic phishing techniques, emphasizing the urgent need for public awareness and education on cybersecurity risks.
+
+## Connection to Course Concepts
+
+This project applies the informational approach to privacy discussed in class.  
+Phishing attacks target an individual's private behavioral and financial data, violating their right to control access to their information.  
+By simulating phishing tactics, this project demonstrates real-world threats to digital privacy.
+
+## Limitations
+
+- The project was conducted in a simulated environment without real-world users.
+- The phishing site was modeled after a simplified banking interface.
+- No collection of actual personal data was involved; all data remained within a controlled test setup.
 
 ## How to Run Locally
 
